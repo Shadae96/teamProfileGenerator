@@ -5,6 +5,7 @@ const Manager = require("./lib/Manager")
 const fs = require('fs');
 const path = require("path");
 const { createInflate } = require('zlib');
+const render = require("./lib/GenerateHTML")
 
 
 const output_directory = path.resolve(__dirname, "output");
